@@ -1,4 +1,15 @@
 a {
   color: rgb(238, 233, 223);
   font-style: none;
+  text-decoration: none;
+  margin: 2px 5px;
+  border: 2px solid #1d040f;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.navStyle {
+  margin: 5px;
+}
+a:hover {
+  background-color: #0d6114;
 }

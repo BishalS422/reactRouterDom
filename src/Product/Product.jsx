@@ -1,14 +1,19 @@
 import React from "react";
 import { css } from "@emotion/css";
 
-const ProductStyle = css`
-  justify-content: center;
-  margin: 30px;
-`;
 const product = () => {
   return (
-    <div className="ProductStyle">
-      <img src="/Assets/bank-robbery.png" alt="" />
+    <div>
+      <img
+        src="/Assets/bank-robbery.png"
+        alt=" logo"
+        className={css`
+          // display: flex;
+          // justify-content: center;
+          // text-align: center;
+          margin: 10px 30px;
+        `}
+      />
       <h1>hello</h1>
     </div>
   );
